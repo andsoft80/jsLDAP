@@ -62,7 +62,7 @@ app.post('/login', function (req, res, next) {
     });
 
 });
-app.listen(3000);
-console.log('Start localhost:3000');
+app.listen(80);
+console.log('Start localhost:80');
 
 
