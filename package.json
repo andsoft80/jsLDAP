@@ -1,0 +1,24 @@
+{
+    "name": "jsLDAP",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "Andrey.Saulin",
+    "contributors": [],
+    "dependencies": {
+        "activedirectory": "0.7.2",
+        "basic-auth": "2.0.1",
+        "express": "4.16.4",
+        "ldap": "^0.7.1",
+        "passport": "0.4.0",
+        "passport-ldapauth": "^2.1.0"
+    },
+    "scripts": {
+        "start": "node main.js"
+    }
+}
